@@ -6,7 +6,7 @@ const Header = props => (
   <div className="header">
     <DrawerContainer 
       category={props.category} 
-      onClickType={props.onClickType} />
+      onClickType={props.onClickType} /> 
     菜谱大全
     {
       props.pathname !== '/' &&
